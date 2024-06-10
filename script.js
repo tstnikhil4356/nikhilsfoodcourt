@@ -17,37 +17,37 @@ let products = [
   {
     id: 1,
     name: " Veg Italian Pizza",
-    image: "1.PNG",
+    image: "1.png",
     price: 120000,
   },
   {
     id: 2,
     name: "Veg Margherita Pizza",
-    image: "2.PNG",
+    image: "2.png",
     price: 130000,
   },
   {
     id: 3,
     name: "Spaghetti",
-    image: "3.PNG",
+    image: "3.png",
     price: 140000,
   },
   {
     id: 4,
     name: "Naruto Japanese Ramen",
-    image: "4.PNG",
+    image: "4.png",
     price: 145000,
   },
   {
     id: 5,
     name: "Oreo McFlurry",
-    image: "5.PNG",
+    image: "5.png",
     price: 150000,
   },
   {
     id: 6,
     name: "Cappuccino",
-    image: "6.PNG",
+    image: "6.png",
     price: 160000,
   },
 ];
@@ -59,7 +59,7 @@ function initApp() {
     let newDiv = document.createElement("div");
     newDiv.classList.add("item");
     newDiv.innerHTML = `<img src="images/${
-      value.images
+      value.image
     }" alt="images/${
       value.name
     }" />
