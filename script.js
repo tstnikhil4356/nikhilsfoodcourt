@@ -58,7 +58,7 @@ function initApp() {
   products.forEach((value, key) => {
     let newDiv = document.createElement("div");
     newDiv.classList.add("item");
-    newDiv.innerHTML = `<img src="images/${value.image}" alt="images/${
+    newDiv.innerHTML = `<img src="images/1.png" alt="images/${
       value.name
     }" />
     <div class="title">${value.name}</div>
